@@ -1,0 +1,16 @@
+# VS Code settings
+.vscode/
+
+# Frontend (Node/React)
+frontend/node_modules/
+frontend/.env.local
+frontend/build/
+
+# Backend (Java/Maven or Gradle)
+backend/target/
+backend/.idea/
+backend/*.iml
+backend/.env
+
+# System
+.DS_Store
