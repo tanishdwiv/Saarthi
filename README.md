@@ -28,7 +28,7 @@
 |---------------|----------------------------------------|
 | Frontend      | React.js, Tailwind CSS                 |
 | Backend       | Spring Boot (Java)                     |
-| Database      | MySQL                                  |
+| Database      | MongoDB                                 |
 | AI Chatbot    | OpenAI API (ChatGPT), Google GenAI SDK |
 | Authentication| Spring Security                        |
 | Deployment    | Localhost (Development Phase)          |
