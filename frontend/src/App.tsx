@@ -14,7 +14,7 @@ import { Provider } from 'react-redux';
 import Store from './Store';
 import AppRoutes from './Pages/AppRoutes';
 
-import ChatWidget from './Components/ChatWidget'; // ✅ Re-added
+import ChatWidget from './Components/ChatWidget'; 
 
 const theme = createTheme({
   focusRing: 'never',

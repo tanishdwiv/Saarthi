@@ -10,7 +10,7 @@ const Card = (props: any) => {
     const dispatch=useDispatch();
     const profile=useSelector((state:any)=>state.profile);
     const handleSaveJob = () => {
-        let savedJobs:any=[...profile.savedJobs];
+        let savedJobs: any = [...(profile.savedJobs ?? [])];
         if(savedJobs.includes(props.id)){
             savedJobs=savedJobs.filter((job:any)=>job!=props.id);
         }else{ 
